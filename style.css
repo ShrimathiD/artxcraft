@@ -1,0 +1,193 @@
+
+header {
+    background-color: #1c2b3a; 
+    color: #ffd700; 
+    text-align: center;
+    position: relative;
+    font-size: 90px;
+    font-family: 'Open Sans', sans-serif;
+    height: 700px;
+    margin: 0; 
+    padding: 0;
+}
+.gallery-container {
+    position: relative;
+    text-align: center;
+}
+.gallery-title {
+    align-items: center;
+    font-family: 'Dancing Script', cursive;
+    margin-top:  0;
+    font-size: 1.9em; 
+    line-height: 1;
+}
+.quote {
+    font-size: 30px; 
+    font-family: 'Lobster', cursive;
+    color: #f0efe8; 
+    margin-top: 5px;
+}
+nav.top-right {
+    position: absolute;
+    top: 2em;
+}
+nav ul {
+    list-style-type: style;
+    margin: 10px;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+    margin-left: 20px;
+}
+nav a {
+    text-decoration: blink;
+    color: #ffd700; 
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Quicksand', sans-serif;
+}
+#home {
+    background-color: #1c2b3a;
+    background-size: cover;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+.welcome-title {
+    font-family: 'Lobster', cursive; 
+    font-size: 3em; 
+    text-align: center;
+    margin-bottom: 10px;
+}
+.welcome-text {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4em;
+    margin-top: 18px; 
+    background-color: #f8db35;
+    color: #1c2b3a;
+    position: relative;
+    text-align: center;
+    margin: 40px; /* Add margin around the welcome text */
+  
+}
+
+.artworks-section {
+    background-color: #1c2b3a; /* Light background color for the artworks section */
+    padding: 40px 0; /* Adjust the padding as needed */
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.artworks-container {
+    max-width: 800px;
+    max-height: 4000px;
+    margin: 0 auto;
+}
+
+.artworks-container h2 {
+    color:#f8db35; /* Dark text color for the heading */
+    font-size: 3em; /* Adjust the font size as needed */
+}
+
+.artwork-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 x 4 grid, adjust as needed */
+    grid-gap: 40px; /* Adjust the gap between artworks */
+    justify-content: center;
+    margin-top: 40px; /* Add space between the heading and the grid */
+}
+
+.artwork {
+    position: relative;
+    overflow: hidden;
+}
+
+.artwork img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for image scaling on hover */
+}
+
+.artwork:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+.artwork-description {
+    text-align: left;
+    padding: 10px;
+    background-color:  #1c2b3a; /* Semi-transparent white background for the description */
+}
+
+.artwork-description h3 {
+    margin: 0 0 5px;
+    font-size: 1.2em;
+    color:#f1f0eb;
+}
+
+.artwork-description p {
+    margin: 0;
+    font-size: 0.9em;
+    color:#f8db35;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.artwork {
+    margin: 5px;
+    text-align: center;
+}
+
+.artwork img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #f8db35; 
+    color: #1c2b3a;
+    text-align: center;
+    padding: 1em;
+    bottom: 3;
+    width: 100%;
+}
+
+
+.hero {
+    width: 100%;
+    height: 1000px;
+    background:#f8db35;
+    color: #1c2b3a; 
+    overflow: hidden;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Lobster', cursive; 
+
+}
+.hero .heroine{
+    background:#f8db35;
+    color: #1c2b3a; 
+    text-align: center;
+    font-size: 0.5em;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 1px;
+}
+.hero .carousel {
+     width: 300px;
+     margin: 2px auto 0;
+     overflow: visible;
+}
+
+.carousel img {
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+    border: 5px solid rgb(246, 242, 242);
+    border-radius: 1.5rem;
+}
